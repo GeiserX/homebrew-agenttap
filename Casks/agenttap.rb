@@ -1,6 +1,6 @@
 cask "agenttap" do
   version "0.10.1"
-  sha256 "85f65b64091b9753e833afa0f11231bd9dd976bd2f8af6107ec17ee4f5c97b41"
+  sha256 "2a6e3b870aa68982a85122c02d39b4d8f3b30fe2ad0d6080523ece6a8ce05153"
 
   url "https://github.com/GeiserX/AgentTap/releases/download/v#{version}/AgentTap-#{version}-macos-arm64.zip"
   name "AgentTap"

@@ -1,6 +1,6 @@
 cask "agenttap" do
-  version "0.11.5"
-  sha256 "5bf715beef5e6df5e911424b4a14fdf8bdb5135b3120770cd7a7c5b14aa306a0"
+  version "0.12.0"
+  sha256 "b27b5aa1910451a847ef436526943da2a6285d1a86d76ee20eeea016dcadcc9b"
 
   url "https://github.com/GeiserX/AgentTap/releases/download/v#{version}/AgentTap-#{version}.dmg"
   name "AgentTap"

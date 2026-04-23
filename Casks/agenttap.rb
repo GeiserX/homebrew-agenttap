@@ -1,11 +1,11 @@
 cask "agenttap" do
-  version "0.15.8"
-  sha256 "d5bbed6b6ce7970bbc043a91c00c590045bda1649235a0f0ee56fde0a8973be6"
+  version "0.15.9"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
-  url "https://github.com/GeiserX/AgentTap/releases/download/v#{version}/AgentTap-#{version}.dmg"
+  url "https://github.com/neutralbase/agent-tap/releases/download/v#{version}/AgentTap-#{version}.dmg"
   name "AgentTap"
   desc "Network-level AI agent observability via transparent HTTPS capture"
-  homepage "https://github.com/GeiserX/AgentTap"
+  homepage "https://github.com/neutralbase/agent-tap"
 
   depends_on macos: ">= :ventura"
 

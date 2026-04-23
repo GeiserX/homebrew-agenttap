@@ -1,4 +1,7 @@
 cask "agenttap" do
+  # NOTE: neutralbase/agent-tap is currently private. Homebrew downloads will
+  # fail until the repo is made public (planned for open-source launch).
+  # For local dev installs, build from source: bun run build
   version "0.15.9"
   sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
